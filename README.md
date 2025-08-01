@@ -26,7 +26,7 @@ Compatible with WordPress 5.0+ and most popular themes.
 
 ## Support
 
-For questions, feature requests, or bug reports, please contact [your support email or website].
+For questions, feature requests, or bug reports, please contact.
 
 ---
 
