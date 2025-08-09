@@ -1,3 +1,6 @@
+# Used shortcode
+[epp_render_posts_sc]
+
 # Better Blog Post Display
 
 A lightweight WordPress plugin that enhances the **frontend presentation** of all blog posts, making your site more visually appealing and easier to navigate for your readers.
