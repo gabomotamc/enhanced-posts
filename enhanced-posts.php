@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Enhanced Posts
-Plugin URI: http://gaboworks.com/portfolio/enhanced-posts
+Plugin URI: https://github.com/gabomotamc/enhanced-posts
 Description: Posts more beauty.
 Version: 1.0.0
 Author: Gabo Mota Chong
