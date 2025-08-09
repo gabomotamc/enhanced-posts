@@ -2,7 +2,7 @@
 ##########
 # Callbacks
 ##########
-add_shortcode( 'epp_render_posts', 'epp_render_posts_shortcode' );
+add_shortcode( 'epp_render_posts_sc', 'epp_render_posts_shortcode' );
 
 ##########
 # Functions
