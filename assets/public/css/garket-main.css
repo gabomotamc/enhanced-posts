@@ -1,3 +1,11 @@
+/*
+    - Primary: #293240;
+    - Secondary: #E0E0E0;
+    - Accent: #FF4500;
+    - Letters: #F5F5F5;
+
+*/
+
 .ep-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
@@ -5,8 +13,8 @@
     margin: 20px 0;
 }
 .ep-card {
-    background: #F8F9FA;
-    border: 1px solid #343A40;
+    background: #E0E0E0;
+    border: 1px solid #E0E0E0;
     border-radius: 15px;
     overflow: hidden;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
@@ -33,21 +41,20 @@
     font-size: 30px;
     margin-bottom: 10px;
     line-height: 1.2;
-    text-align: center;
+    color: #293240;
 }
-.ep-card-title a {
-    color: #000000;
+.ep-card-title > a {
+    color: #293240;
     text-decoration: none;
 }
 .ep-card-excerpt {
     font-size: 15px;
     margin-bottom: 15px;
-    color: #343A40;
-    max-height: 50px;
+    color: #000000;
 }
 .ep-card-button {
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #FF4500;
+    color: #F5F5F5;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 3px;
@@ -59,6 +66,7 @@
     width: fit-content; /* Adjusts width dynamically */
 }
 .ep-card-button:hover {
-    background-color: #cccccc;
-    color: #000000;
+    background-color: #F5F5F5;
+    color: #FF4500;
+    border: 1px solid #FF4500;
 }
