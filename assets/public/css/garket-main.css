@@ -42,10 +42,12 @@
     margin-bottom: 10px;
     line-height: 1.2;
     color: #293240;
+    text-align: center;    
 }
 .ep-card-title > a {
     color: #293240;
     text-decoration: none;
+    text-align: center;
 }
 .ep-card-excerpt {
     font-size: 15px;

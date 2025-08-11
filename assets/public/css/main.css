@@ -38,6 +38,7 @@
 .ep-card-title a {
     color: #000000;
     text-decoration: none;
+    text-align: center;
 }
 .ep-card-excerpt {
     font-size: 15px;

@@ -33,25 +33,24 @@ function epp_render_posts_shortcode( $atts ) {
 
                 $query->the_post();
                 $post_slug = get_post_field('post_name', get_the_ID());
+                $getPermalink = get_permalink();
 
                 $html .='<div class="ep-card">';
                     if ( has_post_thumbnail() ) {
                         $html .='<div class="ep-card-image">';
-                            $html .='<a href="'.get_permalink().'">';
+                            $html .='<a href="'.$getPermalink.'">';
                                 $html .= get_the_post_thumbnail(get_the_ID(), 'medium');
                             $html .='</a>';
                         $html .='</div>';
                     }
                     $html .='<div class="ep-card-content">';
                         $html .='<h2 class="ep-card-title">';
-                            $html .='<a href="'.get_permalink().'">';
-                            $html .= get_the_title();
-                            $html .='</a>';
+                            $html .='<a href="'.$getPermalink.'">'.get_the_title().'</a>';
                         $html .='</h2>';
                         $html .='<div class="ep-card-excerpt">';
                             $html .= wp_trim_words( get_the_excerpt(), 15, '...' );
                         $html .='</div>';//excerpt
-                        $html .='<a class="ep-card-button" href="'.get_permalink().'"><span>View</span></a>';
+                        $html .='<a class="ep-card-button" href="'.$getPermalink.'"><span>View</span></a>';
                     $html .='</div>';//card-content
                 $html .='</div>';//card
 
