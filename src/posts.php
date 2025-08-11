@@ -51,7 +51,7 @@ function epp_render_posts_shortcode( $atts ) {
                         $html .='<div class="ep-card-excerpt">';
                             $html .= wp_trim_words( get_the_excerpt(), 15, '...' );
                         $html .='</div>';//excerpt
-                        $html .='<a class="ep-card-button" href="'.get_permalink().'">View</a>';
+                        $html .='<a class="ep-card-button" href="'.get_permalink().'"><span>View</span></a>';
                     $html .='</div>';//card-content
                 $html .='</div>';//card
 
