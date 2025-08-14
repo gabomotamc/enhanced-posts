@@ -1,8 +1,8 @@
 /*
-    - Primary: #293240;
-    - Secondary: #E0E0E0;
-    - Accent: #FF4500;
-    - Letters: #F5F5F5;
+    - Primary: #145DA0;
+    - Secondary: #F5F5F5;
+    - Accent: #E8B923;
+    - Letters: #FFFFFF;
 
 */
 
@@ -13,9 +13,9 @@
     margin: 20px 0;
 }
 .ep-card {
-    background: #E0E0E0;
-    border: 1px solid #E0E0E0;
-    border-radius: 15px;
+    background: #FFFFFF;
+    border: 0.5px solid #FFFFFF;
+    border-radius: 5px;
     overflow: hidden;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -41,11 +41,11 @@
     font-size: 30px;
     margin-bottom: 10px;
     line-height: 1.2;
-    color: #293240;
-    text-align: center;    
+    color: #145DA0;
+    text-align: center;
 }
 .ep-card-title > a {
-    color: #293240;
+    color: #E8B923;
     text-decoration: none;
 }
 .ep-card-excerpt {
@@ -54,8 +54,8 @@
     color: #000000;
 }
 .ep-card-button {
-    background-color: #FF4500;
-    color: #F5F5F5;
+    background-color: #145DA0;
+    color: #FFFFFF;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 3px;
@@ -67,7 +67,7 @@
     width: fit-content; /* Adjusts width dynamically */
 }
 .ep-card-button:hover {
-    background-color: #F5F5F5;
-    color: #FF4500;
-    border: 1px solid #FF4500;
+    background-color: #E8B923;
+    color: #FFFFFF;
+    border: 1px solid #E8B923;
 }
