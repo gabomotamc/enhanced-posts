@@ -13,8 +13,8 @@
 }
 .ep-card {
     background: #FAFAFA;
-    border: 1px solid #FAFAFA;
-    border-radius: 15px;
+    border: 1px solid #9f1ae2;
+    border-radius: 5px;
     overflow: hidden;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -40,11 +40,11 @@
     font-size: 30px;
     margin-bottom: 10px;
     line-height: 1.2;
-    color: #28282B;
+    color: #9f1ae2;
     text-align: center;    
 }
 .ep-card-title > a {
-    color: #BE1518;
+    color: #9f1ae2;
     text-decoration: none;
     text-align: center;
 }
@@ -54,7 +54,7 @@
     color: #000000;
 }
 .ep-card-button {
-    background-color: #BE1518;
+    background-color: #9f1ae2;
     color: #FAFAFA;
     padding: 10px 15px;
     text-decoration: none;
@@ -68,6 +68,6 @@
 }
 .ep-card-button:hover {
     background-color: #FAFAFA;
-    color: #BE1518;
-    border: 1px solid #BE1518;
+    color: #9f1ae2;
+    border: 1px solid #9f1ae2;
 }
