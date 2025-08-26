@@ -1,9 +1,8 @@
 /*
-    - Primary: #293240;
-    - Secondary: #E0E0E0;
-    - Accent: #FF4500;
-    - Letters: #F5F5F5;
-
+    Primary: #28282B;
+    Secondary: #E9D19C;
+    Accent: #BE1518;
+    Letters: #FAFAFA;
 */
 
 .ep-grid-container {
@@ -13,8 +12,8 @@
     margin: 20px 0;
 }
 .ep-card {
-    background: #E0E0E0;
-    border: 1px solid #E0E0E0;
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
     border-radius: 15px;
     overflow: hidden;
     /*box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
@@ -41,11 +40,11 @@
     font-size: 30px;
     margin-bottom: 10px;
     line-height: 1.2;
-    color: #293240;
+    color: #28282B;
     text-align: center;    
 }
 .ep-card-title > a {
-    color: #293240;
+    color: #BE1518;
     text-decoration: none;
     text-align: center;
 }
@@ -55,8 +54,8 @@
     color: #000000;
 }
 .ep-card-button {
-    background-color: #FF4500;
-    color: #F5F5F5;
+    background-color: #BE1518;
+    color: #FAFAFA;
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 3px;
@@ -68,7 +67,7 @@
     width: fit-content; /* Adjusts width dynamically */
 }
 .ep-card-button:hover {
-    background-color: #F5F5F5;
-    color: #FF4500;
-    border: 1px solid #FF4500;
+    background-color: #FAFAFA;
+    color: #BE1518;
+    border: 1px solid #BE1518;
 }
