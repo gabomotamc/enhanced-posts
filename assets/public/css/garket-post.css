@@ -1,0 +1,18 @@
+/*POST PAGE*/
+
+main#content div.page-header .entry-title{
+    color: #E0E0E0;
+    text-align:center;
+}
+
+main#content div.page-content {
+    background: #E0E0E0;
+    padding: 25px 25px;
+    border-radius: 10px;
+    color: #293240;
+}
+
+main#content div.page-content p {
+    color: #000000;
+    font-size: 17px;
+}
